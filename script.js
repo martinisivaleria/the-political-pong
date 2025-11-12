@@ -40,8 +40,8 @@ window.addEventListener('keydown', (event) => {
 
 })
 
-let dx = Math.random() * 3;
-let dy = Math.random() * 5;
+let dx = (Math.random() + 1) * 3;
+let dy = (Math.random() + 1) * 2;
 
 function animateBall() {
 
